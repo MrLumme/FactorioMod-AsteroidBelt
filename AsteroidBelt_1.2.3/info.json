@@ -1,6 +1,6 @@
 {
 	"name": "AsteroidBelt",
-	"version": "1.2.2",
+	"version": "1.2.3",
 	"title": "Asteroid Belt",
 	"author": "Lumme",
 	"description": "Adds an asteroid belt, dividing the solar system into inner planets, and the outer planets. Inner planets are Nauvis, Vulcanus, Fulgora, Gleba (Mods: Castra, Rubia, Moshine, Igrys, Corrundum). Outer planets are Aquillo, (Mods: Maraxsis, Tenebris, Cubium, Secretas & Frozeta, Paracelsin). The edges of the belt are very resource rich. Traveling throuht the belt is a short but difficult trip, required either a well armed and armored vessel or one that can moderate it's speed.",
@@ -14,7 +14,17 @@
 		"! Tiered-Solar-System",
 		"(?) Redrawn-Space-Connections",
 		"(?) dea-dia-system",
-		"(?) metal-and-stars"
+		"? Paracelsin",
+		"? rubia",
+		"? Moshine",
+		"? maraxsis",
+		"? Igrys",
+		"? cubium",
+		"? castra",
+		"? secretas",
+		"? corrundum",
+		"(?) Cerys-Moon-of-Fulgora",
+		"(?) planet-muluna"
 	],
     "space_travel_required": true
 }
