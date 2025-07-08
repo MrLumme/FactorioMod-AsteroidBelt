@@ -37,12 +37,9 @@ if data.raw["space-location"]["secretas"] then
 	data.raw["planet"]["frozeta"].orientation = data.raw["space-location"]["secretas"].orientation + 0.01
 end
 
-if data.raw["planet"]["paracelsin"] then
+if mods["Paracelsin"] then
 	data.raw["planet"]["paracelsin"].distance = data.raw["planet"]["aquilo"].distance + 3
 	data.raw["space-connection"]["fulgora-paracelsin"].from = "asteroid-belt-outer-edge"
-	if data.raw["planet"]["cubium"] then
-		data.raw["space-connection"]["fulgora-paracelsin"] = nil
-	end
 end
 
 if data.raw["planet"]["cubium"] then
@@ -51,6 +48,7 @@ if data.raw["planet"]["cubium"] then
 	data.raw["space-connection"]["vulcanus-cubium"].from = "asteroid-belt-outer-edge"
 	data.raw["space-connection"]["gleba-cubium"].from = "aquilo"
 	if data.raw["planet"]["paracelsin"] then
+		data.raw["space-connection"]["fulgora-paracelsin"] = nil
 		data.raw["space-connection"]["gleba-cubium"].from = "paracelsin"
 		data.raw["planet"]["cubium"].orientation = util.get_avg_orien("paracelsin", "asteroid-belt-outer-edge", 0.6)
 		data.raw["planet"]["cubium"].distance = util.get_avg_dist("paracelsin", "asteroid-belt-outer-edge", 0.4)
