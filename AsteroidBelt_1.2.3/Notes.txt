@@ -1,0 +1,17 @@
+Adds an asteroid belt, dividing the solar system into inner planets, and the outer planets. Inner planets are Nauvis, Vulcanus, Fulgora, Gleba (Mods: Castra, Rubia, Moshine, Igrys, Corrundum). Outer planets are Aquillo, (Mods: Maraxsis, Cubium, Secretas & Frozeta, Paracelsin). Moons belong to their parent planets, so for example modded Cerys belongs with Fulgora, even though it is frozen. The edges of the belt are very resource rich. Traveling throuht the belt is a short but difficult trip, required either a well armed and armored vessel or one that can moderate it's speed.
+
+Things that define an inner planet:
+- Only encoutering small and medium asteroids in space (e.g. space platforms with only gun turrets should be safe)
+- Planet can not soft lock (e.g. Everything needed to start from scratch is present or can be produced)
+- Do not require regular shipments of materials to keep running
+- Difficulty level is closer to Gleba, Vulcanus or Fulgora, than Aquilo
+- Planet environment have a vibe of an inner planet (Has life, warmth, light)
+- Often terrestrial
+
+Things that define an outer planet:
+- Can encounter big asteroids in space (e.g. space platforms with rockets turrets should be safe)
+- Planet can soft lock (e.g. Preparation, planning, and stocking up on materials are likely required to not get stuck)
+- Can require regular shipments of materials to keep running
+- Difficulty level is closer to Aquilo than Gleba, Vulcanus or Fulgora
+- Planet environment have a vibe of an outer planet (No life, cold, dark)
+- Often gas giants

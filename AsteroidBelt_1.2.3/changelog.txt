@@ -1,0 +1,27 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 04-07-2025
+  Changes:
+    - Added incompatibility with Interstellar Travel, Organized Solar System and Redrawn Space Connections as they mess with this and seem to have confliting ideas with this
+---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 05-07-2025
+  Changes:
+    - Added compatibility with Interstellar Travel, and if it is installed compatibility with Redrawn-Space-Connections, Dea Dia System, and Metal And Stars too (courtesy of Absolute-Phoenix)
+  Bugfixes:
+    - Technology icon is now sized right
+---------------------------------------------------------------------------------------------------
+Version: 1.2.1
+Date: 05-07-2025
+  Bugfixes:
+    - Technology icon is NOW sized right!
+---------------------------------------------------------------------------------------------------
+Version: 1.2.2
+Date: 06-07-2025
+  Changes:
+    - Added compatibility with Nexus (courtesy of Absolute-Phoenix)
+---------------------------------------------------------------------------------------------------
+Version: 1.2.3
+Date: ???
+  Minor changes:
+    - Removed unused setting
